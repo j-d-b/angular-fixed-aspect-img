@@ -50,3 +50,4 @@ This package is licensed under [The MIT License](https://opensource.org/licenses
 - [ ] Enhanced README
 - [ ] Add examples
 - [ ] Add non-minified library to `dist/`
+- [ ] Written tests
