@@ -1,0 +1,33 @@
+{
+  "name": "angular-fixed-aspect-img",
+  "version": "1.0.0",
+  "description": "AngularJS component for a fixed aspect ratio container for a rectangular image of any aspect ratio",
+  "main": "dist/angular-fixed-aspect-img.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "fixed",
+    "aspect",
+    "ratio",
+    "image",
+    "img"
+  ],
+  "author": "j-d-b <jacob@jdbrady.info>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
