@@ -38,9 +38,6 @@ export default function () {
   };
 
   this.$onInit = () => {
-    console.log(this.aspectRatio);
-    console.log(this.bgColor);
-    console.log(this.imgSrc);
     const aspectRatioDecimal = this.aspectRatio
       ? parseAspectRatio(this.aspectRatio)
       : 0.75; // default to 4:3
