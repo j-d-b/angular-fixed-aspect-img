@@ -1,15 +1,17 @@
 import angular from 'angular';
-
-import template from './fixedAspectImg.html';
 import controller from './fixedAspectImg.controller';
-import './fixedAspectImg.css';
 
 const FixedAspectImgComponent = {
-  template,
+  template: `
+    <div class="fai-container" style="width: 100%; height: 100%;" ng-style="{ 'background-color': $ctrl.bgColor || 'black' }">
+      <img class="fai-image" ng-src="{{$ctrl.imgSrc}}" alt="{{$ctrl.altMsg}}" />
+    </div>
+  `,
   bindings: {
-    imgSrc: '@',
+    imgSrc: '<',
     aspectRatio: '<',
-    bgColor: '<'
+    bgColor: '<',
+    altMsg: '<'
   },
   controller
 };
