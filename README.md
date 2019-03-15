@@ -44,6 +44,9 @@ const app = angular.module('app', ['fixedAspectImg']);
 ></fixed-aspect-img>
 ```
 
+## Examples
+See `example/`, which pulls in all dependencies through a CDN, so all you have to do it open `example/example.html` in your browser.
+
 ## API
 * `imageSrc`: the image URL
 * `aspectRatio` *optional*: a string representing an aspect ratio using **:** notation (e.g. `'4:3', '16:9'`). Default: `4:3`
@@ -57,7 +60,7 @@ const app = angular.module('app', ['fixedAspectImg']);
 This package is licensed under [The MIT License](https://opensource.org/licenses/MIT).
 
 ## Todo
-- [ ] Add example
+- [x] Add example
 - [x] Enhanced README
 - [ ] Add minified library to `dist/`
 - [ ] Written tests

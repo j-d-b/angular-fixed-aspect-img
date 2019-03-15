@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <script src="https://unpkg.com/angular-fixed-aspect-img@2.0.0/dist/angular-fixed-aspect-img.umd.js"></script>
+    <script src="example.js"></script>
+  </head>
+
+  <body ng-controller="exampleController as vm">
+    <h1>AngularJS Fixed Aspect Ratio Image</h1>
+
+    <div style="width: 25vw;">
+      <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+        <button ng-click="vm.switchImg()">Change Image</button>
+        <button ng-click="vm.changeAr()">Change Aspect Ratio ({{vm.arOptions[vm.arIndex]}})</button>
+      </div>
+
+      <fixed-aspect-img
+        img-src="vm.imgSrcOptions[vm.imgPlaceholderIndex]"
+        bg-color="'black'"
+        aspect-ratio="vm.arOptions[vm.arIndex]"
+        alt-msg="'Placeholder Image'"
+      ></fixed-aspect-img>
+    </div>
+  </body>
+</html>
