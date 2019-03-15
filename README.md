@@ -1,5 +1,5 @@
 # AngularJS `fixed-aspect-img` Component
-AngularJS component for a fixed aspect ratio container for an image.
+AngularJS component for a fixed aspect ratio image container.
 
 This component can be using in responsive layouts where the image container size is variable (e.g. depends on display width).
 
