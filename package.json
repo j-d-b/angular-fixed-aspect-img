@@ -1,6 +1,6 @@
 {
   "name": "angular-fixed-aspect-img",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "AngularJS component for a fixed aspect ratio container for an image",
   "main": "dist/angular-fixed-aspect-img.cjs.js",
   "module": "dist/angular-fixed-aspect-img.esm.js",
@@ -20,8 +20,8 @@
   ],
   "author": "j-d-b <jacob@jdbrady.info>",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/j-d-b/angular-fixed-aspect-img.git"
+    "type": "git",
+    "url": "https://github.com/j-d-b/angular-fixed-aspect-img.git"
   },
   "license": "MIT",
   "dependencies": {},

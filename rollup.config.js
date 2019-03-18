@@ -20,6 +20,7 @@ export default [
 			resolve(),
 			commonjs(),
 			babel({
+				presets: ['@babel/preset-env'],
 				exclude: ['node_modules/**']
 			})
 		]
@@ -37,6 +38,7 @@ export default [
 		],
 		plugins: [
 			babel({
+				presets: ['@babel/preset-env'],
 				exclude: ['node_modules/**']
 			})
 		]
